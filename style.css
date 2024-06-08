@@ -20,6 +20,17 @@ div {
   padding: 5%;
 }
 
+/* ------------------------ CSS Variables ------------------------------- */
+:root {
+  --dark: #112c36;
+  --featured: lightblue;
+  --medium: rgb(70, 178, 236);
+  --light: #b3e0f0;
+  --v-light ;
+  --light-text: #fff;
+  --featured-text: lightblue;
+}
+
 /* ---------------------- Typography Styles ----------------------------- */
 .left    { text-align: left; }
 .right   { text-align: right; }
@@ -37,8 +48,8 @@ h2, h3, h4, h5, h6 {
   margin-bottom: 1.2rem;
 }
 
-h2 { font-size: 2rem; }
-h3 { font-size: 1.8rem; }
+h3 { font-size: 2rem; }
+h2 { font-size: 1.8rem; }
 h4 { font-size: 1.6rem; }
 h5 { font-size: 1.4rem; }
 h6 { font-size: 1.2rem; }
