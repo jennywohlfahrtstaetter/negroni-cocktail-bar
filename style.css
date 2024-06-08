@@ -144,6 +144,23 @@ p a:hover {
 .bg-pos-l { background-position: left; }
 .bg-pos-r { background-position: right; }
 
+/* images */
+.bg-negroni-2 {
+  background-image: url('/images/negroni-2.jpg');'
+}
+
+.bg-negroni-3 {
+  background-image: url('/images/negroni-3.jpg');'
+}
+
+.bg-negroni-4 {
+  background-image: url('/images/negroni-4.jpg');'
+}
+
+.bg-water-light {
+  background-image: url('/images/water-light.jpg');
+}
+
 
 
 /* ------------------ Header & Hamburger Menu ---------------------- */
