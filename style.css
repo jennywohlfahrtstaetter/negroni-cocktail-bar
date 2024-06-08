@@ -14,21 +14,16 @@ img { max-width: 100%; height: auto; }
 
 section { position: relative; }
 
-section,
-div { 
-  border: 1px solid;
-  padding: 5%;
-}
 
 /* ------------------------ CSS Variables ------------------------------- */
 :root {
   --dark: #112c36;
   --featured: lightblue;
   --medium: rgb(70, 178, 236);
-  --light: #b3e0f0;
-  --v-light ;
+  --light: #c8e8f4;
+  --v-light: #ebfafe;
   --light-text: #fff;
-  --featured-text: lightblue;
+  --featured-text: #112c36;
 }
 
 /* ---------------------- Typography Styles ----------------------------- */
@@ -39,7 +34,7 @@ div {
 .uppercase    { text-transform: uppercase; }
 
 body {
-  font-family: 'Mulish', serif;  /* Add your font here */ 
+  font-family: 'Lora', serif;  /* Add your font here */ 
   color: var(--dark-text);
 }
 
@@ -48,8 +43,24 @@ h2, h3, h4, h5, h6 {
   margin-bottom: 1.2rem;
 }
 
-h3 { font-size: 2rem; }
-h2 { font-size: 1.8rem; }
+h1 { 
+  font-family: 'Lora', serif;
+  font-size: 5.5rem;
+  font-weight: 400;
+}
+
+h2 { 
+  font-size: 1.8rem;
+  font-weight: 400; 
+  line-height: 1.4;
+}
+
+h3 { 
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 0.8;
+ }
+
 h4 { font-size: 1.6rem; }
 h5 { font-size: 1.4rem; }
 h6 { font-size: 1.2rem; }
@@ -71,13 +82,18 @@ p:last-child {
 	margin-bottom: 0;
 }
 
+.reduced-line-height {
+  line-height: 0.6;
+}
+
+
 /* Unique Typography Styles  */
 .emphasis       { font-size: 1.2rem; }
 .featured-text  { color: var(--featured-text);}
 .light-text     { color: var(--light-text);}
 .subtle         { opacity: 0.8;     }
 .subtitle       { font-size: 0.8rem; }
-.copyright      { font-size: 0.9rem; opacity: 0.8;}
+.copyright      { font-size: 0.9rem; opacity: 0.8; margin-top: 3rem;}
 
 /* Gridlex Flip Flex */
 
@@ -87,22 +103,23 @@ p:last-child {
   flex-direction: row-reverse;
 }
 
+/* 8vw und 5vw auch mgl */
+.big-text { font-size: 3rem;} 
+.medium-text { font-size: 2.2rem;}
+.small-text { font-size: 1.8rem;}
+
 /* ------------------------ Buttons & Links ------------------------ */
 a {
     color: inherit;
 }
 
 a:hover {
-  color: var(--featured-text); 
+  color: rgb(37, 134, 191); 
 }
 
 p a {
     text-decoration: none;
     border-bottom: 1px solid;
-}
-
-p a:hover { 
-  color: var(--featured-text); 
 }
 
 .button { 
