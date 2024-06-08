@@ -14,6 +14,12 @@ img { max-width: 100%; height: auto; }
 
 section { position: relative; }
 
+section,
+div { 
+  border: 1px solid;
+  padding: 5%;
+}
+
 /* ---------------------- Typography Styles ----------------------------- */
 .left    { text-align: left; }
 .right   { text-align: right; }
