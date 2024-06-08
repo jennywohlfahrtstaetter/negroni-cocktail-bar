@@ -45,7 +45,7 @@ h2, h3, h4, h5, h6 {
 
 h1 { 
   font-family: 'Lora', serif;
-  font-size: 5.5rem;
+  font-size: 9rem;
   font-weight: 400;
 }
 
@@ -70,7 +70,7 @@ p, li {
   margin-bottom: 1rem;
   font-family: 'Martel', serif; 
   font-weight: 200;
-  font-size: 1rem;
+  font-size: 1.2rem;
 }
 
 h2:last-child, 
@@ -82,7 +82,11 @@ p:last-child {
 	margin-bottom: 0;
 }
 
-.reduced-line-height {
+.reduced-line-height-title {
+  line-height: 0.3;
+}
+
+.reduced-line-height-banner {
   line-height: 0.6;
 }
 
@@ -105,7 +109,6 @@ p:last-child {
 
 /* 8vw und 5vw auch mgl */
 .big-text { font-size: 3rem;} 
-.medium-text { font-size: 2.2rem;}
 .small-text { font-size: 1.8rem;}
 
 /* ------------------------ Buttons & Links ------------------------ */
@@ -446,6 +449,9 @@ nav a:hover {
   .sm-portrait      { padding-bottom: 125%; }
   .sm-square        { padding-bottom: 100%; }
 
+  .sm-heading { font-size: 5rem; line-height: 0.5;}
+  .sm-small-text { font-size: 2.2rem;}
+
 }
 
 /* ---------------- XS Media Query (36em / 576px) ------------------- */ 
@@ -456,8 +462,8 @@ nav a:hover {
 		.xs-show { display: block; }
 		.xs-hide { display: none;  }
 
-    .subtle-heading-xs {
+    .xs-subtle-heading {
       font-weight: 300;
-      font-family: 'Martel', serif; 
+      font-family: 'Lora', serif; 
     }
 }
