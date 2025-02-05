@@ -178,19 +178,19 @@ p a {
 
 /* images */
 .bg-negroni-2 {
-  background-image: url('/images/negroni-2.jpg');'
+  background-image: url('/images/negroni-2.webp');'
 }
 
 .bg-negroni-3 {
-  background-image: url('/images/negroni-3.jpg');'
+  background-image: url('/images/negroni-3.webp');'
 }
 
 .bg-negroni-4 {
-  background-image: url('/images/negroni-4.jpg');'
+  background-image: url('/images/negroni-4.webp');'
 }
 
 .bg-water-light {
-  background-image: url('/images/water-light.jpg');
+  background-image: url('/images/water-light.webp');
 }
 
 /* Overlay  */
