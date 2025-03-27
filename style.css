@@ -15,6 +15,14 @@ img { max-width: 100%; height: auto; }
 section { position: relative; }
 
 
+@font-face {
+  font-family: 'Lora';
+  src: url('fonts/Lora-VariableFont_wght.ttf') format('truetype');
+  font-weight: 400 700; /* Unterstützt Gewichtungen von 400 bis 700 */
+  font-style: normal;
+  font-display: swap;
+}
+
 /* ------------------------ CSS Variables ------------------------------- */
 :root {
   --dark: #112c36;
@@ -68,9 +76,9 @@ h6 { font-size: 1.2rem; }
 p, li {
   line-height: 1.4; 
   margin-bottom: 1rem;
-  font-family: 'Martel', serif; 
+  font-family: 'Lora', serif; 
   font-weight: 200;
-  font-size: 1.2rem;
+  font-size: 0.9rem;
 }
 
 h2:last-child, 
@@ -478,9 +486,4 @@ nav a:hover {
 
 		.xs-show { display: block; }
 		.xs-hide { display: none;  }
-
-    .xs-subtle-heading {
-      font-weight: 300;
-      font-family: 'Lora', serif; 
-    }
 }
